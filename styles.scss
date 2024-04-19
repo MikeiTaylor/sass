@@ -1,0 +1,49 @@
+// Scss Document
+@import"C:\Users\cavem\OneDrive\Desktop\Isaiah school\2nd semester\Web Design 2\WordCamp-Houston\stylesheet.css"
+/* Variables */
+$font-stack: Helvetica, sans-serif
+$primary-color: #333
+$secondary-color: #444
+$bgcolor: lightblue;
+
+body
+  font: 100% $font-stack
+  color: $primary-color
+
+$myFont: Helvetica, sans-serif;
+$myColor: grey;
+$myFontSize: 18px;
+$myWidth: 680px;
+
+body {
+  font-family: $myFont;
+  font-size: $myFontSize;
+  color: $myColor;
+background-color: $bgcolor;
+}
+
+#container {
+  width: $myWidth;
+}
+
+
+/* Nestig */
+nav {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  li {
+    display: inline-block;
+  }
+  a {
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+  }
+}   
+
+sass --watch style.scss style.css
+
+
